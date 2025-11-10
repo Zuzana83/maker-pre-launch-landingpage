@@ -57,7 +57,7 @@ function isValidEmailFormat(email) {
     return emailPattern.test(email);
 }
 
-function successfulSubmission(email) {
+function successfulSubmission() {
     submitBtn.disabled = true;
     submitBtn.textContent = "Sending...";
 
