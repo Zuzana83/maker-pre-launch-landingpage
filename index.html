@@ -12,7 +12,7 @@
   <header class="page_header">
       <div class="content">
         <nav class="page_nav">
-          <a href="index.html" class="home_link" aria-label="primary navigation">
+          <a href="index.html" class="home_link" aria-label="Home page">
             <img src="./assets/logo.svg" alt="maker company logo">
           </a>
         </nav>
@@ -32,7 +32,7 @@
           <h1 class="page_title">Get paid for the work you <span>love</span> to do.</h1>
           <p class="lead_text">The 9-5 grind is so last century. We believe in living life on your own terms. Whether you’re looking to escape the rat race or set up 
           a side hustle, we’ve got you covered.</p>
-          <a href="/signup-page" class="hero_link" role="signup page link">
+          <a href="/signup-page" class="hero_link">
             <img src="./assets/icon-scroll.svg" alt="pc mouse icon">
           </a>
         </article>
@@ -86,7 +86,7 @@
           <!-- PRICE CARD #1 -->
           <article class="price_card free_card">
             <img src="./assets/icon-free.svg" alt="circle and square with stroke" class="price_card_img" />
-            <div class="price_card_title">Dip your toe</div>
+            <h3 class="price_card_title">Dip your toe</h3>
             <p class="price_card_text">Just getting started? No problem at all! Our free plan will take you along way.</p>
             <p class="price_free">free</p>
             <ul class="price_features_list price_features_list_free">
@@ -99,7 +99,7 @@
           <!-- PRICE CARD #2 -->
           <article class="price_card paid_card">
             <img src="./assets/icon-paid.svg" alt="circle and square with stroke" class="price_card_img" />
-            <div class="price_card_title title_dark">Dive right in</div>
+            <h3 class="price_card_title title_dark">Dive right in</h3>
             <p class="price_card_text">Ready for the big time? Our paid plan will help you take your business to the next level.</p>
             <p class="price_inline-f">$25.00 <span>&nbsp; / month</span></p>
             <ul class="price_features_list price_features_list_paid">
@@ -117,6 +117,7 @@
     <div class="content">
       <h2 class="section_title">Get notified when we launch</h2>
       <form class="notification_form" id="notificationForm" novalidate>
+        <label for="email" class="input_label" hidden></label>
         <input type="email" name="email" id="email" placeholder="Email address" class="email_input">
         <button type="submit" class="notification_btn" id="notificationBtn">Get notified</button>
         <small class="error_msg" id="errorMsg"></small>
